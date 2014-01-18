@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:400,700);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700);
+
+::selection {
+	color: #fff;
+	background-color: #1ABC9C;
+}
+
+a {
+	color: #2ECC71;
+	text-decoration: none;
+}
+
+body {
+	background: url('/static/bg-pattern.png') repeat, url('/static/bg-img.png') repeat;
+}
+
+.hero {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 700;
+	font-size: 5em;
+	color: #ccc;
+	margin: -50px auto;
+	text-align: center;
+	width: 75%;
+}
+
+strong {
+	color: #ddd;
+	font-weight: normal;
+}
+
+.hero h2 {
+	font-weight: 400;
+	font-size: 0.88em;
+	color: #1ABC9C;
+	margin-top: -170px;
+}
+
+.description {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	margin: 0 auto;
+	color: #3498DB;
+	font-size: 1.6em;
+}
+
+.description .pre {
+	color: #27AE60;
+	margin: 0 auto;
+	font-family: monospace;
+	background-color: #2C3E50;
+	width: 700px;
+	padding: 10px;
+}
+
+footer {
+	text-align: center;
+	margin: 20px auto;
+}
+
+.love {
+	color: #ddd;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.heart {
+	color: #C0392B;
+}
