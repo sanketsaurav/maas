@@ -1,11 +1,12 @@
-# Meta-as-a-Service
+# [Meta-as-a-Service](http://maas.dfth.in)
 
-MaaS is a service that can be used to get the meta information about a website.
+MaaS is a service that can be used to get the meta information about a website in JSON format.
 
 ## Usage
 
-1. `/example.com`
-	- This will output all the meta information on the website.
+1. `/meta/example.com`
+	- This will output all metadata found on the website.
 
-2. `/example.com/TAG`
-	- This will output the `TAG` meta information on the website, if present.
+2. `/meta/TAG/example.com`
+	- This will output the `TAG` metadata on the website, if present.
+
